@@ -11,6 +11,8 @@ export const OffersHeader = () => {
 					<img src="./static/images/Logo.png"/>
 				</div>
 		    </div>
+
+            
 			<div className="col-md-9">
 				 <ul className="nav justify-content-end">
 				    <li className="nav-item">

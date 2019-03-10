@@ -3,7 +3,7 @@ export const OffersHeader = () => {
     return (
         <div>
     <div className="overlay"></div>
-        <section className="hero-2">
+        <section className="hero-2" >
 	<div className="container">
 		<div className="row header">
 			<div className="col-md-3">

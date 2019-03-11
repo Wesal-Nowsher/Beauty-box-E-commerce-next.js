@@ -2,15 +2,15 @@ import React, {Component} from 'react';
 import '../style.css';
 import Layout from '../components/layout';
 import Header from '../components/header';
-import SignInForm from '../components/signinform';
-class Signin extends Component {
+import SignUpForm from '../components/signupform';
+class Signup extends Component {
     render(){
         return(
             <Layout>
                 <Header/>
-                <SignInForm/>
+                <SignUpForm/>
             </Layout>
         )
     }
 }
-export default Signin;
+export default Signup;

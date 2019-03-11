@@ -11,7 +11,7 @@ const Footer = () => {
 				        </div>
                         <ul className="nav justify-content-center">
                             <li className="nav-item">
-                            <Link href="/index"><a className="nav-link" >HOME</a></Link>
+                            <Link href="/home"><a className="nav-link" >HOME</a></Link>
                             </li>
                             <li className="nav-item">
                             <a className="nav-link" href="#">ABOUT US</a>
@@ -20,7 +20,7 @@ const Footer = () => {
                             <a className="nav-link" href="#">GIFTS</a>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link" href="#">OFFERS</a>
+                            <Link href="/offers"><a className="nav-link">OFFERS</a></Link>
                             </li>
                             
                         </ul>

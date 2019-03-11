@@ -12,7 +12,7 @@ export const HeaderOne = () => {
 			<div className="col-md-9">
 				 <ul className="nav justify-content-end">
 				    <li className="nav-item">
-				      <Link href="/index"><a className="nav-link" >HOME</a></Link>
+				      <Link href="/home"><a className="nav-link" >HOME</a></Link>
 				    </li>
 				    <li className="nav-item">
 				      <a className="nav-link" href="#">ABOUT US</a>
@@ -21,7 +21,7 @@ export const HeaderOne = () => {
 				      <a className="nav-link" href="#">GIFTS</a>
 				    </li>
 				    <li className="nav-item">
-				      <a className="nav-link" href="#">OFFERS</a>
+						<Link href="/offers"><a className="nav-link">OFFERS</a></Link>
 				    </li>
 				    <li className="nav-item">
 				      <a className="nav-link" href="#"><img src="./static/images/Cart.png"/></a>
